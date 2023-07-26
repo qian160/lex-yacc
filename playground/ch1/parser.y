@@ -5,6 +5,7 @@
 #include <stdio.h>
 %}
 
+// definitions of all the tokens we expect to receive from the lexical analyzer
 %token NOUN PRONOUN VERB ADVERB ADJECTIVE PREPOSITION CONJUNCTION
 
 %%
